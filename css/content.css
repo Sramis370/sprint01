@@ -8,8 +8,9 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   padding-top: 8%;
+   padding-top: 8em;
+   padding-right: 11px;
    margin: auto;
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
 }
