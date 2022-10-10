@@ -1,0 +1,101 @@
+body {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 0px;
+    background: black;
+}
+
+
+.formulario {
+    padding: 15px;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.navbar {
+    margin: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+.navbar ul li {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: rgb(255, 127, 127);
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.header {
+    background: red;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background: red;
+    text-align: center;
+    
+}
+
+.titulo {
+    background: black;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+}
+
+.seccion1 {
+    padding: 10px;
+}
+
+.seccion2 {
+    padding: 10px;
+}
+
+.footer{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    height: 100%;
+    width: 100%;
+}
+/* .footer1 {
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+} */
+
+
+@media (max-width: 800px) {
+    .navbar {
+        padding-top: 3em;
+    }
+  }
