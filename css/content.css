@@ -1,11 +1,15 @@
-body{
-    background-image: url(../materiales/play\ video.png);
-    background-size: 100%;
- }
+body {
+   background-image: url(../materiales/play\ video.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
 
- .video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 8%;
- }
+.video {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 8%;
+   margin: auto;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
