@@ -1,0 +1,40 @@
+body {
+    background-image: url(../materiales/img01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0em;
+}
+
+.subtitle{
+    margin-top: 0em;
+}
+
+.video{
+    width: 20em;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: white;
+    border-style: solid;
+}
+
+.celular {
+    width: 25em; 
+    height: 44em; 
+    background-image: linear-gradient(135deg, #a200ff,#53028c);
+    border-radius: 30px;
+    border-color: black;
+    border-style: solid;
+}
+
+.footer{
+    background-color: #a200ff;
+    text-align: center;
+}
